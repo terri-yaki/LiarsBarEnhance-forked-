@@ -1,0 +1,24 @@
+﻿# 默认忽略的文件
+/shelf/
+/workspace.xml
+# Rider 忽略的文件
+/.idea.LiarsBarEnhance.iml
+/projectSettingsUpdater.xml
+/modules.xml
+/contentModel.xml
+/.idea/
+# 基于编辑器的 HTTP 客户端请求
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+
+# visual studio 的文件
+/.vs/
+
+# 游戏dll
+/lib/
+
+# 构建
+/bin/
+/obj/
