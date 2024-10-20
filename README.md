@@ -1,5 +1,9 @@
 ~~[English(Waiting for translate)](./README_EN.md)~~
 
+# 请遵守开源协议
+# 请遵守开源协议
+# 请遵守开源协议
+
 # 功能
 
 ### 被动技
