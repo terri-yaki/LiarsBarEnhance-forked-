@@ -1,51 +1,107 @@
-中文 - [English](./README_en.md)
-# 请遵守开源协议
-# 请遵守开源协议
-# 请遵守开源协议
+---
+
+## 中文 - [English](./README_en.md)
+
+# 請遵守開源協議
 
 # 功能
 
-### 被动技
+### 被動技
 
- - 移除视角转动限制
- - 修复中文玩家名显示`□`
- - 移除玩家名字长度限制（HUD与聊天）
- - 移除只能发送小写限制
- - 移除敏感词限制（房主需要）
+- 移除視角轉動限制
+- 修復中文玩家名顯示`□`
+- 移除玩家名字長度限制（HUD與聊天）
+- 移除只能發送小寫限制
+- 移除敏感詞限制（房主需要）
 
-### 主动技
+### 主動技
 
- - 按I疯狂转头
- - 按住O张嘴
- - ↑↓←→控制头的移动
- - WASD控制身体移动
- - 按住鼠标右键转动控制身体转动
- - 按`delete`键重置位置与旋转
- - 按住`鼠标滚轮键`拖动鼠标可以让头前后移动
- - 按`左Shift`与`左Ctrl`分别为上下移动
+- 按 `I` 瘋狂轉頭
+- 按住 `O` 張嘴
+- `↑↓←→` 控制頭的移動
+- `WASD` 控制身體移動
+- 按住鼠標右鍵轉動控制身體轉動
+- 按 `delete` 鍵重置位置與旋轉
+- 按住 `鼠標滾輪鍵` 拖動鼠標可以讓頭前後移動
+- 按 `左Shift` 與 `左Ctrl` 分別為上下移動
 
 ### 做不到
 
- - 看别人的牌
- - 修改手中的牌型
- - 不死
+- 看別人的牌
+- 修改手中的牌型
+- 不死
 
-# 安装
+# 安裝
 
- 1. 安装插件加载器[BepInEx5](https://github.com/BepInEx/BepInEx/releases)（[官方教程](https://docs.bepinex.dev/articles/user_guide/installation/index.html)）
- 2. 从[Release](https://github.com/dogdie233/LiarsBarEnhance/releases)下载插件本体（dll后缀）
- 3. 将下载的dll放置在插件文件夹 （即`<游戏根目录>/BepInEx/plugins`）
+1. 安裝插件加載器 [BepInEx5](https://github.com/BepInEx/BepInEx/releases)（[官方教程](https://docs.bepinex.dev/articles/user_guide/installation/index.html)）
+2. 從 [Release](https://github.com/dogdie233/LiarsBarEnhance/releases) 下載插件本體（dll 後綴）
+3. 將下載的 dll 放置在插件文件夾（即 `<遊戲根目錄>/BepInEx/plugins`）
 
-# 自己构建插件
+# 自己構建插件
 
- 1. 确保已经安装了[.NET SDK](https://dotnet.microsoft.com/zh-cn/download)（6.0或以上）
- 2. clone本仓库
- 3. 在项目根目录创建`lib`文件夹
- 4. 复制游戏的所有dll（位于`<游戏根目录>/Liar's Bar_Data/Managed/`）进`lib`文件夹
- 5. 在项目根目录执行`dotnet build -c Release`  
- 6. 生成的插件文件在`<项目根目录>/bin/Release/netstandard2.1/publish/com.github.dogdie233.LiarsBarEnhance.dll`
+1. 確保已經安裝了 [.NET SDK](https://dotnet.microsoft.com/zh-cn/download)（6.0 或以上）
+2. clone 本倉庫
+3. 在項目根目錄創建 `lib` 文件夾
+4. 複製遊戲的所有 dll（位於 `<遊戲根目錄>/Liar's Bar_Data/Managed/`）進 `lib` 文件夾
+5. 在項目根目錄執行 `dotnet build -c Release`
+6. 生成的插件文件在 `<項目根目錄>/bin/Release/netstandard2.1/publish/com.github.dogdie233.LiarsBarEnhance.dll`
 
 # 其他
 
-欢迎欢愉的功能贡献（影响游戏平衡除外），可以提起功能请求等待有兴趣的开发者实现  
-[BepinEx5安装教程【Unity游戏Mod/插件制作教程02 - BepInEx的安装和使用-哔哩哔哩】](https://www.bilibili.com/read/cv8997496/)
+歡迎歡愉的功能貢獻（影響遊戲平衡除外），可以提起功能請求等待有興趣的開發者實現  
+[BepinEx5 安裝教程【Unity 遊戲 Mod/插件製作教程 02 - BepInEx 的安裝和使用 - 哔哩哔哩】](https://www.bilibili.com/read/cv8997496/)
+
+---
+
+## English - [中文](./README.md)
+
+# Please Follow the Open Source License
+
+# Features
+
+### Passive Abilities
+
+- Remove camera rotation restrictions
+- Fix display issue for Chinese player names showing `□`
+- Remove player name length limit (HUD and chat)
+- Remove restriction to send only lowercase
+- Remove sensitive word restrictions (host required)
+
+### Active Abilities
+
+- Press `I` to rotate head wildly
+- Hold `O` to open mouth
+- `↑↓←→` to control head movement
+- `WASD` to control body movement
+- Hold right mouse button to control body rotation
+- Press `delete` to reset position and rotation
+- Hold `mouse wheel button` and drag to move the head forward/backward
+- `Left Shift` and `Left Ctrl` to move up and down respectively
+
+### Limitations
+
+- Cannot see other players' cards
+- Cannot modify cards in hand
+- Cannot become invincible
+
+# Installation
+
+1. Install the plugin loader [BepInEx5](https://github.com/BepInEx/BepInEx/releases) ([Official Guide](https://docs.bepinex.dev/articles/user_guide/installation/index.html))
+2. Download the plugin from [Release](https://github.com/dogdie233/LiarsBarEnhance/releases) (with `.dll` extension)
+3. Place the downloaded `.dll` file in the plugins folder (`<Game Root Directory>/BepInEx/plugins`)
+
+# Building the Plugin Yourself
+
+1. Ensure you have installed the [.NET SDK](https://dotnet.microsoft.com/download) (6.0 or above)
+2. Clone this repository
+3. Create a `lib` folder in the project root directory
+4. Copy all game `.dll` files (located in `<Game Root>/Liar's Bar_Data/Managed/`) into the `lib` folder
+5. Run `dotnet build -c Release` in the project root directory
+6. The generated plugin file will be in `<Project Root>/bin/Release/netstandard2.1/publish/com.github.dogdie233.LiarsBarEnhance.dll`
+
+# Others
+
+Contributions for fun features are welcome (excluding those affecting game balance). You can submit feature requests for interested developers to implement.  
+[BepinEx5 Installation Guide【Unity Game Mod/Plugin Tutorial 02 - Installing and Using BepInEx - Bilibili】](https://www.bilibili.com/read/cv8997496/)
+
+---
