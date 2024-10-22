@@ -1,5 +1,3 @@
----
-
 ## 中文 - [English](./README_en.md)
 
 # 請遵守開源協議
