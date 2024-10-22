@@ -16,7 +16,7 @@
 
 ### 主動技
 
-- 點 `I` 瘋狂轉頭
+- 按 `I` 瘋狂轉頭
 - 按住 `O` 張嘴
 - `↑↓←→` 控制頭的移動
 - `WASD` 控制身體移動
@@ -59,7 +59,7 @@
 
 # Features
 
-### Passive Abilities
+### Passive
 
 - Remove camera rotation restrictions
 - Fix display issue for Chinese player names showing `□`
@@ -67,7 +67,7 @@
 - Remove restriction to send only lowercase
 - Remove sensitive word restrictions (host required)
 
-### Active Abilities
+### Active
 
 - Press `I` to rotate head wildly
 - Hold `O` to open mouth
@@ -88,7 +88,7 @@
 
 1. Install the plugin loader [BepInEx5](https://github.com/BepInEx/BepInEx/releases) ([Official Guide](https://docs.bepinex.dev/articles/user_guide/installation/index.html))
 2. Download the plugin from [Release](https://github.com/dogdie233/LiarsBarEnhance/releases) (with `.dll` extension)
-3. Place the downloaded `.dll` file in the plugins folder (`<Game Root Directory>/BepInEx/plugins`)
+3. Place the downloaded `.dll` file in the plugins folder (`<Game Root>/BepInEx/plugins`)
 
 # Building the Plugin Yourself
 
