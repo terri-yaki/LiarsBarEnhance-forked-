@@ -7,10 +7,9 @@ namespace LiarsBarEnhance.Features;
     {
         [HarmonyPatch(typeof(DatabaseManager), "Start")]
         [HarmonyPostfix]
-        public static void BlorfGamePlay_Look(DatabaseManager __instance)
+        public static void DatabaseManager_Modify(DatabaseManager __instance)
         {
             Traverse.Create(__instance).Field("xp").SetValue(999999);
             int wins = Traverse.Create(__instance).Field("Wins").GetValue<int>();
-            Debug.Log($"{wins}");
         }
     }
