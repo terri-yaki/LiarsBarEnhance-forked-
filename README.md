@@ -41,7 +41,7 @@
  1. 确保已经安装了[.NET SDK](https://dotnet.microsoft.com/zh-cn/download)（6.0或以上）
  2. clone本仓库
  3. 在项目根目录创建`lib`文件夹
- 4. 复制游戏的所有dll进`lib`文件夹（位于`<游戏根目录>/Liar's Bar_Data/Managed/`）
+ 4. 复制游戏的所有dll（位于`<游戏根目录>/Liar's Bar_Data/Managed/`）进`lib`文件夹
  5. 在项目根目录执行`dotnet build -c Release`  
  6. 生成的插件文件在`<项目根目录>/bin/Release/netstandard2.1/publish/com.github.dogdie233.LiarsBarEnhance.dll`
 
