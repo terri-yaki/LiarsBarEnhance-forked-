@@ -1,7 +1,5 @@
 English - [中文](./README.md)
 # Please follow open-source license.
-# Please follow open-source license.
-# Please follow open-source license.
 
 # Functionalities 
 
