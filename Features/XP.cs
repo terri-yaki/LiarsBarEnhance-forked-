@@ -10,6 +10,5 @@ namespace LiarsBarEnhance.Features;
         public static void DatabaseManager_Modify(DatabaseManager __instance)
         {
             Traverse.Create(__instance).Field("xp").SetValue(999999);
-            int wins = Traverse.Create(__instance).Field("Wins").GetValue<int>();
         }
     }
