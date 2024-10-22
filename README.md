@@ -34,7 +34,7 @@
 # 安装
 
  1. 安装[BepInEx5](https://github.com/BepInEx/BepInEx/tree/v5-lts)（[教程](https://docs.bepinex.dev/articles/user_guide/installation/index.html)自己找）
- 2. 从[Release](https://github.com/dogdie233/LiarsBarEnhance/Release)下载适用于你的游戏版本的文件（dll文件）
+ 2. 从[Release](https://github.com/dogdie233/LiarsBarEnhance/releases)下载适用于你的游戏版本的文件（dll文件）
  3. 将下载的dll放置在插件文件夹
 
 # 自己构建
