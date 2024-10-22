@@ -17,7 +17,8 @@
 /.vs/
 
 # 游戏dll
-# /lib/
+lib/*
+!lib
 
 # 构建
 /bin/
