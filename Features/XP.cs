@@ -9,7 +9,7 @@ namespace LiarsBarEnhance.Features;
         [HarmonyPostfix]
         public static void DatabaseManager_Modify(DatabaseManager __instance)
         {
-            if (Input.GetKeyUp(KeyCode.F1)){
+            if (Input.GetKeyDown(KeyCode.F1)){
                 Traverse.Create(__instance).Field("xp").SetValue(999999);
             }
         }
