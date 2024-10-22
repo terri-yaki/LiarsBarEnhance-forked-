@@ -32,11 +32,12 @@
 
 # 安装
 
- 1. 安装[BepInEx5](https://github.com/BepInEx/BepInEx/tree/v5-lts)（[教程](https://docs.bepinex.dev/articles/user_guide/installation/index.html)自己找）
+ 1. 安装插件加载器[BepInEx5](https://github.com/BepInEx/BepInEx/tree/v5-lts)（[教程](https://docs.bepinex.dev/articles/user_guide/installation/index.html)自己找）
  2. 从[Release](https://github.com/dogdie233/LiarsBarEnhance/releases)下载适用于你的游戏版本的文件（dll文件）
- 3. 将下载的dll放置在插件文件夹
+ 3. 将下载的dll放置在插件文件夹 `<游戏根目录>/BepInEx/plugins`
 
-# 自己构建
+# 自己构建插件
+
  1. 确保已经安装了[.NET SDK](https://dotnet.microsoft.com/zh-cn/download)（6.0或以上）
  2. clone本仓库
  3. 在项目根目录创建`lib`文件夹
